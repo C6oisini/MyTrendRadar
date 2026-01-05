@@ -62,17 +62,17 @@
 芯片
 光刻机
 
-科技
-AI
-OPENAI
-NVIDIA
-GROK
-GEMINI
-GOOGLE
-CLAUDE
-AGENT
-RL
-Reinforce Learning
+/科技|tech|technology/i => 科技/AI 生态
+/(?<![a-zA-Z])ai(?![a-zA-Z])/i
+/\bopenai\b/i
+/\bnvidia\b/i
+/\bgrok\b/i
+/\bgemini\b/i
+/\bgoogle\b/i
+/\bclaude\b/i
+/\bagent\b/i
+/(?<![a-zA-Z])rl(?![a-zA-Z])/i => 强化学习
+/reinforce(?:ment)? learning/i
 
 
 核能
