@@ -36,7 +36,7 @@ on:
     #   "30 0-14 * * *"  → 北京时间 8:00-22:00 每小时第30分钟 / Beijing 8am-10pm
     #
     # ↓ 微调注释，无功能影响 / tiny comment tweak, no functional change
-    - cron: "33 * * * *"
+    - cron: "33 */6 * * *"
 
   workflow_dispatch:
 
